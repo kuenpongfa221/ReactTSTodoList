@@ -8,7 +8,7 @@ type item = {
 
 export const TodoList: React.FC = () => {
   const [todos, setTodos] = useState<item[]>([
-    { id: 1, text: "Learn Typescript with George", completed: false },
+    { id: 1, text: "Learn Typescript with Michael", completed: false },
     { id: 2, text: "Build Todo List App", completed: false },
   ]);
 
